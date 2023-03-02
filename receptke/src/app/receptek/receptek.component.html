@@ -1,6 +1,6 @@
 <app-menu></app-menu>
 <h3>Receptek listája</h3>
 <hr>
-<div>
-    <app-recept *ngFor="let recept of recepts" [recept]="recept" class="card mb-3"></app-recept>
+<div class="container">
+    <app-recept *ngFor="let recept of recepts" [recept]="recept" class="card bg-dark mb-3"></app-recept>
 </div>
