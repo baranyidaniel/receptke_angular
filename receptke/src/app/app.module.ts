@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ReceptekComponent } from './receptek/receptek.component';
-import { HomeComponent } from './home/home.component';
 import { UsersComponent } from './users/users.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ReceptComponent } from './recept/recept.component';
@@ -16,7 +15,6 @@ import { ReceptComponent } from './recept/recept.component';
     AppComponent,
     MenuComponent,
     ReceptekComponent,
-    HomeComponent,
     UsersComponent,
     ProfileComponent,
     ReceptComponent
